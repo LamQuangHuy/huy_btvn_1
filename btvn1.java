@@ -8,6 +8,10 @@ public class btvn1{
         }
         return sum;
     }
+    public static int sum2(int[]a)
+    {
+        return Arrays.stream(a).sum();
+    }
     public static void main(String[] args) {
         int a[]={2,6,4,1,9};
         System.out.println(sum(a));
