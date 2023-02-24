@@ -11,7 +11,9 @@ public class btvn1{
     public static void main(String[] args) {
         int a[]={2,6,4,1,9};
         System.out.println(sum(a));
-        System.out.println(Arrays.toString(a));
+        // System.out.println(Arrays.toString(a));
+        Arrays.sort(a);
+        System.out.println(a);
 
     }
 }
