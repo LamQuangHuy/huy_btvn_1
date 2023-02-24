@@ -17,7 +17,7 @@ public class btvn1{
         System.out.println(sum(a));
         // System.out.println(Arrays.toString(a));
         Arrays.sort(a);
-        System.out.println(a);
+        
 
     }
 }
